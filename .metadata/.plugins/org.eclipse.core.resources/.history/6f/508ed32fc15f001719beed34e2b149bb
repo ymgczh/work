@@ -1,0 +1,13 @@
+package testclass;
+
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingDeque;
+import java.util.concurrent.BlockingQueue;
+
+public class BlockingQueueTest {
+
+	public static void main(String[] args) {
+		final BlockingQueue queue = new ArrayBlockingQueue(3);
+	}
+
+}

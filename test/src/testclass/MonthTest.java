@@ -1,6 +1,5 @@
 package testclass;
 
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -13,7 +12,6 @@ public class MonthTest {
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(nowDate);
 		cal.add(Calendar.MONTH, -3);
-		Date t = cal.getTime();
 		System.out.println("<?xml version='1.0' encoding='UTF-8'?>".length());
 	}
 

@@ -1,0 +1,9 @@
+package testclass;
+
+public class BlockingQueueCommunication {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
