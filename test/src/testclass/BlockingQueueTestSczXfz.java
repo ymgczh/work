@@ -6,6 +6,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 
 /*
  * 生产者消费者模式
+ * 2017年7月3日20:53:20
  */
 public class BlockingQueueTestSczXfz {
 	  //生产者
