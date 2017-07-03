@@ -31,6 +31,8 @@ public class AliTest {
 			System.out.println(1233121);
 		}
 		
+		System.out.println("test2");
+		
 		System.out.println(java.net.URLDecoder.decode("%E7%8E%8B%E5%8F%91%E9%BE%99","utf-8"));
 	}
 }
