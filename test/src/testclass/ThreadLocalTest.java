@@ -1,4 +1,4 @@
-package testForEvery.test;
+package testclass;
 
 import java.util.Random;
 

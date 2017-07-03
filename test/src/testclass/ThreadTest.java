@@ -1,4 +1,4 @@
-package testForEvery.test;
+package testclass;
 
 public class ThreadTest {
 	public static void main(String[] args) {

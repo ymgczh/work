@@ -1,4 +1,4 @@
-package testForEvery.test;
+package testclass;
 
 public class TranditionalThreadSynchorized {
 
