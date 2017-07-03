@@ -1,6 +1,0 @@
-<<<<<<< Updated upstream
-a
-存在即是合理，穿越也是可能
-=======
-a
->>>>>>> Stashed changes
