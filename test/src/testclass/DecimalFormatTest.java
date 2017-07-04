@@ -2,7 +2,7 @@ package testclass;
 
 import java.text.DecimalFormat;
 
-public class DoTest {
+public class DecimalFormatTest {
 
 	public static void main(String[] args) {
 		Double a = 1.3;
