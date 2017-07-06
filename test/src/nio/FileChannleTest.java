@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
+import java.util.Random;
 
 /**
  * NIO³õÉæ
@@ -37,6 +38,15 @@ public class FileChannleTest {
 					bybr.clear();
 					read = channel.read(bybr);
 				}
+				
+				bybr.clear();
+				String init = "\r\n"+"Ð´ÈëËæ»úÊý£º" + new Random().nextInt(10000);
+				bybr.put(init.getBytes());
+				bybr.flip();
+				while (bybr.hasRemaining()) {
+					channel.write(bybr);
+				}
+				channel.close();
 				afile.close();
 			} catch (IOException e) {
 				e.printStackTrace();

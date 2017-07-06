@@ -8,6 +8,7 @@ import java.io.InputStreamReader;
 
 public class SimpleBufferIo {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) throws Exception {
 		String path = "C:" + File.separator + "工作" + File.separator + "niotest.txt";
 		String opath = "C:" + File.separator + "工作" + File.separator + "oniotest.txt";
