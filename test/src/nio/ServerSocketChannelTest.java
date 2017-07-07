@@ -19,7 +19,11 @@ public class ServerSocketChannelTest {
 		} catch (IOException e) {
 			e.printStackTrace();
 		} finally {
-			schannel.close();
+			try {
+				schannel.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 		
 	}
